@@ -4,6 +4,7 @@
 
 ## 1. Community Selection
 **Community:** `r/nba` (Reddit)
+
 **Why it's a good fit:** I chose `r/nba` because it is one of the most active sports forums on the internet, featuring a massive daily volume of text-heavy posts and comments. It is a perfect fit for a classification task because the discourse varies wildly in quality and intent. Within a single thread, you can find brilliant statistical breakdowns of complex defensive schemes right next to purely emotional, reactionary attacks on a player's character. Categorizing this spectrum from "substantive" to "low-effort" is highly relevant for community moderation and content filtering.
 
 ## 2. Label Definitions
