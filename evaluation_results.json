@@ -1,0 +1,13 @@
+{
+  "baseline_accuracy": 0.5667,
+  "finetuned_accuracy": 0.8667,
+  "improvement": 0.3,
+  "test_set_size": 30,
+  "label_map": {
+    "Narrative Debate": 0,
+    "News & Aggregation": 1,
+    "Reactionary / Hot Take": 2,
+    "Data-Driven Analysis": 3
+  },
+  "model": "distilbert-base-uncased"
+}
