@@ -26,8 +26,19 @@ Based on the "Substance & Effort" framework, I will use four mutually exclusive 
 ## 3. Hard Edge Cases
 * **The Ambiguous Case:** A post that starts as **News** (e.g., a link to a trade tweet) but the user includes a three-paragraph emotional rant in the post body about why the trade ruins the team (**Reactionary**). Another edge case is using stats (Analysis) to argue an MVP case (Narrative Debate).
 * **Handling Strategy:** I will classify based on the *dominant textual volume and primary intent* of the user's contribution. If a post is a news link but contains >50% original analytical text, it becomes "Data-Driven Analysis." If stats are used purely to construct an all-time ranking, it falls under "Narrative Debate" because the *intent* is legacy discussion. If the text is purely emotional venting over a news link, it is "Reactionary."
-
-## 4. Data Collection Plan
+* **Hard to label:**
+  * **Example 1:**
+    * **Text:** "David Stern asks Jim Rome: “Have you stopped beating your wife yet?”.
+    * **My Classification:** Narrative Debate
+    * **The Problem:** I didn't know what to make of this text because it doesn't properly fit into any of my categories. Since it poses a question. I felt it was the closest to a debate since it makes the audience wonder as well.
+  * **Example 2:**
+    * **Text:** "What is your team’s far and away worst decision ever made?”.
+    * **My Classification:** Reactionary/Hot Take
+    * **The Problem:** I was going back and forth between Narrative Debate and Reactionary/Hot take for this classification but since it involves emotion, I felt the hot take category was more fitting.
+  * **Example 3:**
+    * **Text:** "Dwyane Wade spins and explodes all over Kendrick Perkins (2011)”.
+    * **My Classification:** News & Aggregation
+    * **The Problem:** I was having trouble with this one because although it is news, it is debatable whether that really happened because of the the exaggerated language used in the statement.
 * **Sources:** I will collect examples using the Reddit API (PRAW) or manual scraping, targeting top "Text" posts from the past week, as well as highly upvoted/downvoted comments inside "Post-Game Threads" to capture the "Hot Take" element.
 * **Target Size:** 200 total examples, aiming for an even split (~50 per label). 
 * **Underrepresentation Fallback:** "Data-Driven Analysis" is generally much rarer than "Reactionary" posts. If Analysis is underrepresented after scraping 200 random posts, I will do a targeted search using keywords like "OC" (Original Content), "breakdown," "stats," or "film" to pull 20–30 specific examples to balance the dataset.
