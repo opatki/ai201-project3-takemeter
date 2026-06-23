@@ -2,6 +2,8 @@
 
 A fine-tuned DistilBERT classifier that categorizes Reddit posts from r/nba into four content types, compared against a zero-shot LLM baseline.
 
+[Demo Video](https://www.loom.com/share/fbef824ced154f13a035c06aa3e6ab48) 
+
 ---
 
 ## Community Selection
