@@ -35,7 +35,7 @@ Based on the "Substance & Effort" framework, I will use four mutually exclusive 
     * **Text:** "What is your team’s far and away worst decision ever made?”.
     * **My Classification:** Reactionary/Hot Take
     * **The Problem:** I was going back and forth between Narrative Debate and Reactionary/Hot take for this classification but since it involves emotion, I felt the hot take category was more fitting.
- * **Example 3:**
+  * **Example 3:**
     * **Text:** "Dwyane Wade spins and explodes all over Kendrick Perkins (2011)”.
     * **My Classification:** News & Aggregation
     * **The Problem:** I was having trouble with this one because although it is news, it is debatable whether that really happened because of the the exaggerated language used in the statement.
